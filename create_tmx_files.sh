@@ -3,7 +3,7 @@
 download_wbtmx() {
   cd ..
   git clone https://github.com/wasabibit/WBTMXTool.git
-  cd 4friends
+  cd ${TRAVIS_REPO_NAME}
 }
 
 run_wbtmx() {
@@ -47,7 +47,7 @@ commit_files() {
 }
 
 upload_files() {
-  git remote add github https://${GH_TOKEN}@github.com/funkyzooink/4friends.git > /dev/null 2>&1
+  git remote add github https://${GH_TOKEN}@github.com/funkyzooink/${TRAVIS_REPO_NAME}.git > /dev/null 2>&1
   git push --quiet --set-upstream github master
 }
 
