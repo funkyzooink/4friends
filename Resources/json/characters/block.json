@@ -1,0 +1,36 @@
+{
+    "block": {
+        "x_speed": 2,
+        "animations": {
+            "idle_left": [
+                "block/block1.png"
+            ],
+            "idle_right": [
+                "block/block1.png"
+            ],
+            "walk_left": [
+                "block/block1.png"
+            ],
+            "walk_right": [
+                "block/block1.png"
+            ]
+        }
+    },
+    "block2": {
+        "y_speed": 2,
+        "animations": {
+            "idle_left": [
+                "block/block2.png"
+            ],
+            "idle_right": [
+                "block/block2.png"
+            ],
+            "walk_left": [
+                "block/block2.png"
+            ],
+            "walk_right": [
+                "block/block2.png"
+            ]
+        }
+    }
+}

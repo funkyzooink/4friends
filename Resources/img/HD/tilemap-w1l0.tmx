@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="114">
+    <tileset firstgid="1" name="world2" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="39" columns="39">
+        <image source="world2.png" width="1560" height="40"/>
+    </tileset>
+    <tileset firstgid="40" name="elements1" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="40" columns="40">
+        <image source="elements1.png" width="1600" height="40"/>
+    </tileset>
+    <layer id="1" name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztlssKgzAQRQNx01ZsoYLdFBH6/9/YFFwN8REyceLtPXBAshpzMMY5TO7Bl/BhOhHRhH2xYV9s2Bcb9sWGfbFhX2yewUHYm05ENPlYD0CKwr7YsC8Gt6CPOAl/a63RjCSNd3Ccn2P35CV5fz4f7ItNal95jvPMro+c81muda5M86V7wZE2Cu9hTW7fmBe3vm97+qfMVdKzU6Kvxn+8lr7WZ0iu18QuGnu29X37ivr+k1p991hL3y+LmyeW</data>
+    </layer>
+    <objectgroup id="2" name="gameObjects">
+        <object id="1" name="lee" x="64" y="512" width="32" height="64"/>
+        <object id="1" name="larry" x="64" y="512" width="32" height="64"/>
+        <object id="53" name="exit" x="3776" y="384" width="64" height="96"/>
+        <object id="83" name="walker" x="1472" y="512" width="32" height="64"/>
+        <object id="95" name="walker" x="2688" y="512" width="32" height="64"/>
+        <object id="111" name="jumper" x="3360" y="416" width="32" height="64"/>
+        <object id="112" name="jumper" x="3264" y="416" width="32" height="64"/>
+        <object id="113" name="jumper" x="3168" y="416" width="32" height="64"/>
+    </objectgroup>
+    <objectgroup id="6" name="infoObjects">
+        <object id="76" name="tutorial-w1l0-1" x="192" y="416" width="32" height="32"/>
+        <object id="77" name="tutorial-w1l0-3" x="1312" y="352" width="32" height="32"/>
+        <object id="78" name="tutorial-w1l0-5" x="2464" y="416" width="32" height="32"/>
+        <object id="79" name="tutorial-w1l0-2" x="672" y="416" width="32" height="32"/>
+        <object id="106" name="tutorial-w1l0-4" x="1632" y="256" width="32" height="32"/>
+    </objectgroup>
+    <objectgroup id="5" name="interactionObjects">
+        <object id="103" name="destroy" x="1728" y="256" width="32" height="32"/>
+        <object id="104" name="destroy" x="1728" y="288" width="32" height="32"/>
+        <object id="105" name="destroy" x="1728" y="320" width="32" height="32"/>
+        <object id="107" name="jump" x="1440" y="384" width="32" height="32"/>
+        <object id="108" name="jump" x="1472" y="384" width="32" height="32"/>
+        <object id="109" name="jump" x="1440" y="480" width="32" height="32"/>
+        <object id="110" name="jump" x="1472" y="480" width="32" height="32"/>
+    </objectgroup>
+    <layer id="4" name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt0s8KgCAMwOFep2Nd+kMQUR3D93+bPHiIoUmFTer3gWQ1ZWwrCgAAAAAAAADAX0zaCSCZ3q7WrtG9h3p9ZQbMjTMatPMz8ZDbOW7ueexv5/aDiA19P7v76pk3HGsl59oXk1Jp1xqJeVLDJbKvRLwvlyZy9xL4r0H209ffHGcypxrmTtbKN7PzG4n8XJnoXtm7r/S31k4AwCfs/N4OvA==</data>
+    </layer>
+</map>

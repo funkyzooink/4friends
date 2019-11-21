@@ -1,0 +1,154 @@
+{
+    "walker": {
+        "x_speed": 5,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "jumper/idle-1.png",
+                "jumper/idle-2.png"
+            ],
+            "idle_right": [
+                "jumper/idle-1.png",
+                "jumper/idle-2.png"
+            ],
+            "walk_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-4.png"
+            ],
+            "walk_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-4.png"
+            ]
+        }
+    },    
+    "attacker": {
+        "x_speed": 4,
+        "y_speed": 1.2,
+        "can_attack": true,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "jumper/idle-1.png",
+                "jumper/idle-2.png"
+            ],
+            "idle_right": [
+                "jumper/idle-1.png",
+                "jumper/idle-2.png"
+            ],
+            "jump_left_down": [
+                "jumper/attack.png"
+            ],
+            "jump_left_up": [
+                "jumper/attack.png"
+            ],
+            "jump_right_down": [
+                "jumper/attack.png"
+            ],
+            "jump_right_up": [
+                "jumper/attack.png"
+            ],
+            "walk_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-4.png"
+            ],
+            "walk_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-4.png"
+            ]
+        }
+    },
+    "jumper": {
+        "x_speed": 5,
+        "y_speed": 3.5,
+        "can_jump": true,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "jumper/idle-1.png",
+                "jumper/idle-2.png"
+            ],
+            "idle_right": [
+                "jumper/idle-1.png",
+                "jumper/idle-2.png"
+            ],
+            "jump_left_down": [
+                "jumper/jump.png"
+            ],
+            "jump_left_up": [
+                "jumper/jump.png"
+            ],
+            "jump_right_down": [
+                "jumper/jump.png"
+            ],
+            "jump_right_up": [
+                "jumper/jump.png"
+            ],
+            "walk_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-4.png"
+            ],
+            "walk_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-4.png"
+            ]
+        }
+    },
+    "flyer": {
+        "x_speed": 5,
+        "can_fly": true,
+        "flip_animation_x": true,
+        "audio": "flyer",
+        "animations": {
+            "idle_left": [
+                "flyer/idle-1.png",
+                "flyer/idle-2.png"
+            ],
+            "idle_right": [
+                "flyer/idle-1.png",
+                "flyer/idle-2.png"
+            ],
+            "walk_left": [
+                "flyer/walk-1.png",
+                "flyer/walk-2.png",
+                "flyer/walk-3.png",
+                "flyer/walk-4.png"
+            ],
+            "walk_right": [
+                "flyer/walk-1.png",
+                "flyer/walk-2.png",
+                "flyer/walk-3.png",
+                "flyer/walk-4.png"
+            ]
+        }
+    },    
+    "staticshooter": {
+        "bullet_life_time": 100,
+        "can_move": false,
+        "bullet_type": [
+            "bullet"
+        ],
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "staticshooter/idle1.png",
+                "staticshooter/idle2.png"
+            ],
+            "idle_right": [
+                "staticshooter/idle1.png",
+                "staticshooter/idle2.png"
+            ]
+        }
+    }
+}
