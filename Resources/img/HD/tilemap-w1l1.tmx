@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="190">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="194">
     <tileset firstgid="1" name="world2" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="39" columns="39">
         <image source="world2.png" width="1560" height="40"/>
     </tileset>
@@ -7,7 +7,7 @@
         <image source="elements1.png" width="1600" height="40"/>
     </tileset>
     <layer id="1" name="tileLayer" width="200" height="20">
-        <data encoding="base64" compression="zlib">eAHtWcsKAjEMXPCg4BMU9KIn//8bbQ+BsqQPQ3eTbUYodavpdmYyzT6maZzPNUB5Me02DkQgAQNiBu4h8sm0h3hGBIKBcRj4jgMFSMBAdwbgj+6UYsKBGNDyxz5wuGtsh4H4BpRtMaDlj22xpLPaf/aQuNdgH+mv09b80ZIzyJP+eeJ1xmMAzl3nnLwSAtxgIGEA7z8SMvAVDAQG0ppxDsfc+8FLGOfqSq8x1CekolUGcjWD88lSY3g/bzU7fKwrrRHzPT9XM5byAjevd3+U9Jnr1fsYtXuaLNQIzhc05t0fmvp44v4dyuGHaZr8kwdK/ega5Z5D07NnTX1G577lClGT/5Iv6DfvGmnq45376B9N/skDpd67Rpr6LP1ssmX/7vkf7l6udo+lyX/JF/SbdX9I74lrulBeWNeHdJL0hHGtnuOyll9cjATrUjG19a/Fbe48UtytuKzrI8Uf46R7izSOex5b08E6/7X15/J2rXFpfrTisq6PFL+VuJoO1vmvrX8tH+TOI9W5FZd1faT4Y9wP6KxTWw==</data>
+        <data encoding="base64" compression="zlib">eAHtWV1rwzAMDOyhg67toIPtZdtL//9vrP0gCEX+mGpLmnUF49apEt+dzkqcbVvnc0lQvpj2vg5EIAEDYgauKfKTaR/iMyIQDKzJwG1NWEAFBoYwoOGP7zTT3yGzxUnAgC4DGv4gRIf05aWzvVIQejBgyICmPwxh/ptL/2UNyWsN1pG50mr449n7q56cQZ7MzZNIZz8msNx9zlskEoAVDBQYwPuPAjEYDsvAvmacEgvc+8FzGufqyqgx1Kew6eceeKlmcD6ZNYb38+7TZOkJ7mvE45pfqhmzvMCdN7o/avo86jX6N2r3tnmoEZwvaCy6Pyz1icR93i/9YZol/+SBWr+6RqV9aNp7ttRnde57bgwt+a/5go5F18hSn+jcZ/9Y8k8eqPXRNbLUZ/beZM/6PfI/3LNc6xnLkv+aL+iYd39In4lbulBeeNeHdJL0hFGr57hs5RcXI8E6K6Y1fy1uS9eR4u7F5V0fKf4cJ11bpHHcfmxLB+/8t+ZfylutcWl+9OLyro8Uv5e4lg7e+W/NX8sHpetIde7F5V0fKf4cdwcA/VPT</data>
     </layer>
     <objectgroup id="2" name="gameObjects">
         <object id="1" name="lee" x="64" y="512" width="32" height="64"/>
@@ -46,18 +46,21 @@
         <object id="182" name="walker" x="1952" y="224" width="32" height="64"/>
         <object id="183" name="walker" x="2176" y="224" width="32" height="64"/>
         <object id="184" name="walker" x="2080" y="224" width="32" height="64"/>
+        <object id="190" name="walker" x="2880" y="64" width="32" height="64"/>
+        <object id="191" name="walker" x="2816" y="64" width="32" height="64"/>
+        <object id="192" name="walker" x="3104" y="128" width="32" height="64"/>
+        <object id="193" name="walker" x="3072" y="128" width="32" height="64"/>
     </objectgroup>
     <objectgroup id="3" name="interactionObjects">
-        <object id="122" name="destroy" x="1632" y="160" width="32" height="32"/>
-        <object id="125" name="destroy" x="1632" y="96" width="32" height="32"/>
-        <object id="127" name="destroy" x="1632" y="128" width="32" height="32"/>
-        <object id="128" name="destroy" x="1632" y="64" width="32" height="32"/>
-        <object id="129" name="destroy" x="1632" y="192" width="32" height="32"/>
-        <object id="185" name="jump" x="2560" y="224" width="32" height="32"/>
-        <object id="186" name="jump" x="2560" y="160" width="32" height="32"/>
+        <object id="122" name="destroy" x="1728" y="160" width="32" height="32"/>
+        <object id="125" name="destroy" x="1728" y="96" width="32" height="32"/>
+        <object id="127" name="destroy" x="1728" y="128" width="32" height="32"/>
+        <object id="128" name="destroy" x="1728" y="64" width="32" height="32"/>
+        <object id="129" name="destroy" x="1728" y="192" width="32" height="32"/>
+        <object id="185" name="jump" x="2528" y="96" width="32" height="32"/>
         <object id="187" name="jump" x="2560" y="192" width="32" height="32"/>
-        <object id="188" name="jump" x="2560" y="128" width="32" height="32"/>
-        <object id="189" name="jump" x="2560" y="256" width="32" height="32"/>
+        <object id="188" name="jump" x="2560" y="96" width="32" height="32"/>
+        <object id="189" name="jump" x="2528" y="192" width="32" height="32"/>
     </objectgroup>
     <layer id="4" name="elementLayer" width="200" height="20">
         <data encoding="base64" compression="zlib">eAHt17sNgCAUAEDnURM/hRtYu/82Qk9BCASMR0JD3o+jYposAgQIECBAgAABAgQIECBAgAABAgR6CGyhadx7j+Z6EiBAgACBhMCVOHNEgACBEQSeEYYYeIZ14NmM1lbgDOXvti1UJ0CAAAECBAgQIECAQDWBL/1f52q3VqhUIL7BUZosjwABAhkCS0aMEAIECBAgQIDAnwVeipkCkw==</data>
