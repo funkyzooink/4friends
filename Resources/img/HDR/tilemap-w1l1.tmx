@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="194">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="226">
  <tileset firstgid="1" name="world2" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="39" columns="39">
   <image source="world2.png" width="3120" height="80"/>
  </tileset>
@@ -8,7 +8,7 @@
  </tileset>
  <layer id="1" name="tileLayer" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eAHtWV1rwzAMDOyhg67toIPtZdtL//9vrP0gCEX+mGpLmnUF49apEt+dzkqcbVvnc0lQvpj2vg5EIAEDYgauKfKTaR/iMyIQDKzJwG1NWEAFBoYwoOGP7zTT3yGzxUnAgC4DGv4gRIf05aWzvVIQejBgyICmPwxh/ptL/2UNyWsN1pG50mr449n7q56cQZ7MzZNIZz8msNx9zlskEoAVDBQYwPuPAjEYDsvAvmacEgvc+8FzGufqyqgx1Kew6eceeKlmcD6ZNYb38+7TZOkJ7mvE45pfqhmzvMCdN7o/avo86jX6N2r3tnmoEZwvaCy6Pyz1icR93i/9YZol/+SBWr+6RqV9aNp7ttRnde57bgwt+a/5go5F18hSn+jcZ/9Y8k8eqPXRNbLUZ/beZM/6PfI/3LNc6xnLkv+aL+iYd39In4lbulBeeNeHdJL0hFGr57hs5RcXI8E6K6Y1fy1uS9eR4u7F5V0fKf4cJ11bpHHcfmxLB+/8t+ZfylutcWl+9OLyro8Uv5e4lg7e+W/NX8sHpetIde7F5V0fKf4cdwcA/VPT
+   eAHtmU1vwzAIhiv1sEndl9RK22XbZf//N845ILkttjFgRhiVoqSJsc3Lg0ndwyHO57W48oEcb3FcTE9SAbYC52L5jhwXdo9pmArEVOAnplvpVSqgooBFfnyWmX6rzHauk23cr8njL+Y551W2tlTAIj/An4dycSQej2CkdO752XumNHx2s1MF/gsbPT97zyzCWtfXmTVkW2u01xELf/c0hgUbdfw52lCYwTg5lcGo9apu98SZZNqEUaDFTTQuWvvY2N52fS/3ucOgznKkxU00Llp+1rmAXb8UVbd6YrVeSOsrC4I0ulKgrhnP5UmPi/pdQ/PaijdwnJsfoE209QJ0yfO9AlJWgBnJ2Zo3qc/WdeQ+anlHU4G6Rtyu+62aIeF91nZv+QH+ac27F5/beGl/t67dmlxr9SVdL4GHVWctzqh6aekBdUTK7CpdKf1aa0+N0Yp2rf+FtXig6M1pYx0j73pwNOTaWGu/gntpn955sI6Rdz24rHPsrLWXsrzC3jsP1jHyrgeHc66N1jti6x1zBc+9PrHfcqPfWN55yPzA99W5zHuy67G84hnG+ogvzMaThqP5a+voXQ9PsZHOpVVXVt3H9mNHfHnnYTT/zI+49UWafxT7EV+ZH9cZ5l0PSsz30uYXh4xzZw==
   </data>
  </layer>
  <objectgroup id="2" name="gameObjects">
@@ -17,19 +17,19 @@
   <object id="67" name="walker" x="1408" y="1024" width="64" height="128"/>
   <object id="68" name="walker" x="3776" y="448" width="64" height="128"/>
   <object id="89" name="walker" x="4480" y="448" width="64" height="128"/>
-  <object id="90" name="walker" x="7744" y="896" width="64" height="128"/>
+  <object id="90" name="walker" x="7552" y="256" width="64" height="128"/>
   <object id="92" name="staticshooter" x="2048" y="896" width="64" height="128"/>
   <object id="130" name="staticshooter" x="3136" y="448" width="64" height="128"/>
   <object id="153" name="exit" x="12608" y="768" width="128" height="192"/>
   <object id="154" name="coin" x="10368" y="192" width="64" height="64"/>
   <object id="155" name="coin" x="10304" y="192" width="64" height="64"/>
-  <object id="156" name="jumper" x="10752" y="576" width="64" height="128"/>
+  <object id="156" name="jumper" x="10944" y="576" width="64" height="128"/>
   <object id="157" name="coin" x="10496" y="192" width="64" height="64"/>
   <object id="158" name="coin" x="10432" y="192" width="64" height="64"/>
   <object id="159" name="coin" x="10176" y="192" width="64" height="64"/>
   <object id="160" name="coin" x="10240" y="192" width="64" height="64"/>
   <object id="161" name="staticshooter" x="10560" y="192" width="64" height="128"/>
-  <object id="162" name="walker" x="9024" y="704" width="64" height="128"/>
+  <object id="162" name="walker" x="9024" y="640" width="64" height="128"/>
   <object id="163" name="staticshooter" x="9856" y="576" width="64" height="128"/>
   <object id="165" name="coin" x="12032" y="832" width="64" height="64"/>
   <object id="166" name="coin" x="11840" y="832" width="64" height="64"/>
@@ -41,10 +41,10 @@
   <object id="172" name="coin" x="2816" y="512" width="64" height="64"/>
   <object id="175" name="walker" x="11520" y="832" width="64" height="128"/>
   <object id="177" name="flyer" x="4736" y="384" width="64" height="128"/>
-  <object id="178" name="coin" x="8384" y="896" width="64" height="64"/>
-  <object id="179" name="coin" x="8448" y="896" width="64" height="64"/>
-  <object id="180" name="coin" x="8512" y="896" width="64" height="64"/>
-  <object id="181" name="coin" x="8576" y="896" width="64" height="64"/>
+  <object id="178" name="coin" x="7296" y="320" width="64" height="64"/>
+  <object id="179" name="coin" x="7360" y="320" width="64" height="64"/>
+  <object id="180" name="coin" x="7424" y="320" width="64" height="64"/>
+  <object id="181" name="coin" x="7488" y="320" width="64" height="64"/>
   <object id="182" name="walker" x="3904" y="448" width="64" height="128"/>
   <object id="183" name="walker" x="4352" y="448" width="64" height="128"/>
   <object id="184" name="walker" x="4160" y="448" width="64" height="128"/>
@@ -52,6 +52,16 @@
   <object id="191" name="walker" x="5632" y="128" width="64" height="128"/>
   <object id="192" name="walker" x="6208" y="256" width="64" height="128"/>
   <object id="193" name="walker" x="6144" y="256" width="64" height="128"/>
+  <object id="212" name="walker" x="8896" y="640" width="64" height="128"/>
+  <object id="213" name="walker" x="8768" y="640" width="64" height="128"/>
+  <object id="214" name="walker" x="8640" y="640" width="64" height="128"/>
+  <object id="215" name="coin" x="7296" y="64" width="64" height="64"/>
+  <object id="216" name="coin" x="7360" y="64" width="64" height="64"/>
+  <object id="217" name="coin" x="7424" y="64" width="64" height="64"/>
+  <object id="218" name="coin" x="7488" y="64" width="64" height="64"/>
+  <object id="219" name="jumper" x="10112" y="192" width="64" height="128"/>
+  <object id="220" name="walker" x="11776" y="832" width="64" height="128"/>
+  <object id="221" name="walker" x="12160" y="832" width="64" height="128"/>
  </objectgroup>
  <objectgroup id="3" name="interactionObjects">
   <object id="122" name="destroy" x="3456" y="320" width="64" height="64"/>
@@ -63,10 +73,32 @@
   <object id="187" name="jump" x="5120" y="384" width="64" height="64"/>
   <object id="188" name="jump" x="5120" y="192" width="64" height="64"/>
   <object id="189" name="jump" x="5056" y="384" width="64" height="64"/>
+  <object id="194" name="jump" x="6976" y="192" width="64" height="64"/>
+  <object id="195" name="jump" x="7040" y="192" width="64" height="64"/>
+  <object id="196" name="jump" x="7104" y="192" width="64" height="64"/>
+  <object id="197" name="jump" x="7168" y="192" width="64" height="64"/>
+  <object id="198" name="jump" x="7232" y="192" width="64" height="64"/>
+  <object id="199" name="jump" x="7296" y="192" width="64" height="64"/>
+  <object id="200" name="jump" x="7360" y="192" width="64" height="64"/>
+  <object id="201" name="jump" x="7424" y="192" width="64" height="64"/>
+  <object id="202" name="jump" x="7488" y="192" width="64" height="64"/>
+  <object id="203" name="jump" x="7552" y="192" width="64" height="64"/>
+  <object id="204" name="jump" x="7616" y="192" width="64" height="64"/>
+  <object id="205" name="jump" x="7680" y="192" width="64" height="64"/>
+  <object id="206" name="jump" x="7744" y="192" width="64" height="64"/>
+  <object id="207" name="jump" x="7808" y="192" width="64" height="64"/>
+  <object id="208" name="destroy" x="7168" y="320" width="64" height="64"/>
+  <object id="209" name="destroy" x="7616" y="320" width="64" height="64"/>
+  <object id="210" name="destroy" x="7616" y="256" width="64" height="64"/>
+  <object id="211" name="destroy" x="7168" y="256" width="64" height="64"/>
+  <object id="222" name="jump" x="9664" y="512" width="64" height="64"/>
+  <object id="223" name="jump" x="9728" y="512" width="64" height="64"/>
+  <object id="224" name="jump" x="9664" y="320" width="64" height="64"/>
+  <object id="225" name="jump" x="9728" y="320" width="64" height="64"/>
  </objectgroup>
  <layer id="4" name="elementLayer" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eAHt17sNgCAUAEDnURM/hRtYu/82Qk9BCASMR0JD3o+jYposAgQIECBAgAABAgQIECBAgAABAgR6CGyhadx7j+Z6EiBAgACBhMCVOHNEgACBEQSeEYYYeIZ14NmM1lbgDOXvti1UJ0CAAAECBAgQIECAQDWBL/1f52q3VqhUIL7BUZosjwABAhkCS0aMEAIECBAgQIDAnwVeipkCkw==
+   eAHt1zEOgCAQBEDeoyYaC39g7f9/I/aUENZkSGiuuF2moxSHAAECBAgQIECAAAECBAgQIECAAIEZAnsN/e4xI1wmAQIECBBoCFyNmREBAgQSBJ6EEsEdtuBuqo0VOOv6e2yE7QQIECBAgAABAgQIEOgm8Kf/69Lt1RYRIECAQKrAmlpMLwIECBAgQIBAiMALtgoCOA==
   </data>
  </layer>
 </map>
