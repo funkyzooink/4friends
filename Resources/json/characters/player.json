@@ -108,6 +108,12 @@
         "custom_action_1": "switch",
         "custom_action_2": "attack",
         "animations": {
+            "attack_left": [
+                "player3/attack.png"
+            ],
+            "attack_right": [
+                "player3/attack.png"
+            ],
             "idle_left": [
                 "player3/idle-1.png",
                 "player3/idle-2.png"
