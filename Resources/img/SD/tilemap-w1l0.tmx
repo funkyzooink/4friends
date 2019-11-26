@@ -22,7 +22,6 @@
     <objectgroup id="6" name="infoObjects">
         <object id="76" name="tutorial-w1l0-1" x="96" y="208" width="16" height="16"/>
         <object id="77" name="tutorial-w1l0-3" x="656" y="176" width="16" height="16"/>
-        <object id="78" name="tutorial-w1l0-5" x="1232" y="208" width="16" height="16"/>
         <object id="79" name="tutorial-w1l0-2" x="336" y="208" width="16" height="16"/>
         <object id="106" name="tutorial-w1l0-4" x="816" y="128" width="16" height="16"/>
     </objectgroup>
