@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="200" height="40" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="296">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="40" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="296">
  <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="38" columns="38">
   <image source="world1.png" width="3040" height="80"/>
  </tileset>
@@ -8,7 +8,7 @@
  </tileset>
  <layer id="9" name="tileLayer" width="200" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt3MFKw0AQgOEFDxUU7dGDIur7v6MRLKSYMU26252F74MB7SVB8u8EBUsBAAAAAAAAAACyeJvm/ffrh2nuFuaxz61BKs/TvCzMsedNMaT5udvi85PoTG9xxkd9PFW8BtQUPbO1zvh5n2vXskf4zy12xqH83Q2fpV0fc2t92CP9LT0f0dx3usdbar0/el2LMWTvMdP7lT0yruzP+V4Z94c9QhZrz+xXqXcW6IPR1NwfW3bs0nzsuOaP18qfwYn3K4jpA2Kj9HHtu9vWGel3LLQzSh/Qgz4gpg+I6eNye/9GfFj5nrz0ATF99Gef5KUPiOkDYvqAmD5yufT/AbQazukjl60/o9rDOX3koo9c9JGLPnLRRy76yEUfuegjF33k0ruPb6TYTaU=
+   eAHtnNFKxDAQRRd8UFDURx8U0f3/fzSBHQhpupmm4yQhp1CHpttMcu7cpmUXLxc2CEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQGAUAl9hIN+3wTyH+FDYX27nCRBYmcBbmPxHYX9fGQpzbyKQ3nfTDqzapc+9e3p+n7e4x+/54zUMJuazyCHzIkLAgsBezeb3+dZ7fOrnWq7WHBYc6GN8AmktpaO1ao99PoY9Xxt+Q1vuh/zYonZr/mAdiQr13Ur1kdeLHD/1HapL9lrNik88/GGZywUeSU4TGN2P/+2PdO3T5mIdOV127h2MXuetQLQ167l+sI60qsl11gRq/riGhPK8WYpHnkFrucQXEi08ac2L/tYioK1ZTa0eWWNLXvsJ6MUbMWpyRrU+459sO9OWdcXhwgQs/VHDqM0lHtH6o5aX8xBoJaCtWYta1ebCH61qcp01AW3N9vbH2We30vPcvbYj71XWmtDfOARm8cc4xBjJSgTwx0pqM9ejBPDHUWJ8fiUC+EOv9pF3oPT9JV5371g/Aj7pTQB/eBMn30wE8Ed/tfL1pf+IGIEQwB9CggiBLQH8sWVCCwSEAP4QEkQIbAngjy2Tni3a/wdw77v/M+d6zn3E3PhjLFW0eshv1KzjWDT6j0arR+/fX/Un5TMCrR7WvpD+fGY5TxatHvjDR1OtHlLP1tFnlvNk0eqBP3w01eph7Qvpz2eW82TR6oE/fDTV6iH1bB19ZjlPFq0e+MNHU60e1r6Q/v4ApNhNpQ==
   </data>
  </layer>
  <objectgroup id="2" name="gameObjects">
@@ -40,12 +40,12 @@
   <object id="199" name="walker" x="960" y="1024" width="64" height="128"/>
   <object id="200" name="walker" x="1152" y="1024" width="64" height="128"/>
   <object id="201" name="walker" x="1472" y="1024" width="64" height="128"/>
-  <object id="202" name="coin" x="7616" y="1152" width="64" height="64"/>
-  <object id="203" name="coin" x="7680" y="1152" width="64" height="64"/>
-  <object id="204" name="coin" x="7936" y="1152" width="64" height="64"/>
-  <object id="205" name="coin" x="8000" y="1152" width="64" height="64"/>
-  <object id="206" name="coin" x="8256" y="1152" width="64" height="64"/>
-  <object id="207" name="coin" x="8320" y="1152" width="64" height="64"/>
+  <object id="202" name="coin" x="7616" y="1088" width="64" height="64"/>
+  <object id="203" name="coin" x="7680" y="1088" width="64" height="64"/>
+  <object id="204" name="coin" x="7936" y="1088" width="64" height="64"/>
+  <object id="205" name="coin" x="8000" y="1088" width="64" height="64"/>
+  <object id="206" name="coin" x="8256" y="1088" width="64" height="64"/>
+  <object id="207" name="coin" x="8320" y="1088" width="64" height="64"/>
   <object id="208" name="walker" x="7296" y="1344" width="64" height="128"/>
   <object id="209" name="walker" x="7616" y="1344" width="64" height="128"/>
   <object id="210" name="exit" x="12608" y="1984" width="64" height="128"/>
@@ -112,7 +112,7 @@
  </objectgroup>
  <layer id="10" name="elementLayer" width="200" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt20sKgzAQAFCPU9x1IW3pol/opu39j9MIdlMsGEQT43swECPqLBJIglNVAAAAAAAAAABxLqkTgIwcQuxCHLvrtn1Klw5k5/anPaUmRD3TtwDWZJs6Aeg0qROAlelbW1tvU6J2rbNJnQSQPfsiiPM7Z6wjAQCWr+5i6DmKfRQAAFAC/ysBsHTqQSnFeWBfjPfI5yEXfWN57Ph+VeqlWbZ9iEeIZ8+968h3z1UvDVO7D+yLqbX4zg9nagAAAAAAZfkA7t8JeA==
+   eAHt20sKwjAQANAeR9y5EBUXfsGNev/jmIBCKSMYMcGWVwiGaZwkT4uxNF3nIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAiUCRzKmmtNYNICmzS7VSrb5yxzffeseyFAoOtOPYR+vRf+eXWZMs5/nlVCAgQIEFggIPAnAvm33kGAQDuBaG0dxdqNSE8E6gjktc6sTmpZCRCYkID/RRP6ME2licDwmrGObMKuEwIECBAgQIBAVYG8psvl0/sowzVh1cFJToAAAQIECBAgQIAAgUoCnleqBCstAQIECDQTsB+0GbWOKgvsg/xRLGj2NnR/e8YJAuMSiL7LUaxkVrfU2H7pEjFt/01gnQZ0SeUaDOwYxEpCrfZLl4xJWwLfCJyDN0WxT58RyOle14d7agGuEAECBAgQIECAAAECBAgQIECAAAECBEYs8ADu3wl4
   </data>
  </layer>
 </map>
