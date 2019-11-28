@@ -47,8 +47,8 @@ setup_spritesheetpacker() {
 
 run_spritesheetpacker() {
   cd art
-  spritesheetpacker characters.ssp
-  spritesheetpacker menu.ssp
+  /Applications/SpriteSheetPacker.app characters.ssp
+  /Applications/SpriteSheetPacker.app menu.ssp
   cd ..
 }
 
