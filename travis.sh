@@ -72,11 +72,11 @@ upload_files() {
 }
 
 
-#download_wbtmx
-#run_wbtmx
+download_wbtmx
+run_wbtmx
 download_spritesheetpacker
 setup_spritesheetpacker
 run_spritesheetpacker
-#setup_git
-#commit_files
-#upload_files
+setup_git
+commit_files
+upload_files
