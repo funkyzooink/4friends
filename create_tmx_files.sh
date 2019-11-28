@@ -47,8 +47,8 @@ setup_spritesheetpacker() {
 
 run_spritesheetpacker() {
   cd art
-  /Applications/SpriteSheetPacker.app characters.ssp
-  /Applications/SpriteSheetPacker.app menu.ssp
+  /Applications/SpriteSheetPacker.app/Contents/MacOS/SpriteSheetPacker characters.ssp
+  /Applications/SpriteSheetPacker.app/Contents/MacOS/SpriteSheetPacker menu.ssp
   cd ..
 }
 
