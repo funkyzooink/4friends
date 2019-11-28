@@ -28,7 +28,7 @@
         <object id="81" name="coin" x="2208" y="144" width="16" height="16"/>
         <object id="82" name="coin" x="2176" y="112" width="16" height="16"/>
         <object id="83" name="coin" x="2144" y="80" width="16" height="16"/>
-        <object id="104" name="attacker" x="608" y="208" width="16" height="32"/>
+        <object id="104" name="jumper" x="608" y="208" width="16" height="32"/>
         <object id="105" name="walker" x="480" y="208" width="16" height="32"/>
         <object id="106" name="walker" x="1184" y="144" width="16" height="32"/>
         <object id="107" name="jumper" x="1824" y="128" width="16" height="32"/>

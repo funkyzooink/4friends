@@ -8,7 +8,7 @@
  </tileset>
  <layer id="1" name="tileLayer" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="2" name="gameObjects">
@@ -30,7 +30,7 @@
   <object id="81" name="coin" x="8832" y="576" width="64" height="64"/>
   <object id="82" name="coin" x="8704" y="448" width="64" height="64"/>
   <object id="83" name="coin" x="8576" y="320" width="64" height="64"/>
-  <object id="104" name="attacker" x="2432" y="832" width="64" height="128"/>
+  <object id="104" name="jumper" x="2432" y="832" width="64" height="128"/>
   <object id="105" name="walker" x="1920" y="832" width="64" height="128"/>
   <object id="106" name="walker" x="4736" y="576" width="64" height="128"/>
   <object id="107" name="jumper" x="7296" y="512" width="64" height="128"/>
@@ -129,7 +129,7 @@
  </objectgroup>
  <layer id="4" name="elementsLayer" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eAHt18ENgCAQBEAKsgKjMaL91yQPK7iEC5Ah4bnc3vwoxSFAgAABAgQIECCQJ3DnjTKJAAECBAiEBI5QSogAgd4Ce+8B3h9WYBu2mWIECBCYS+Ccq662BAgQIECAAAECBJYTqG2j57/vcttZiAABAgQIECBAgAABAgQiAlcL+SNG5GQIECBAgACBDIEP5SACsA==
+   eAHt10EKwCAMBEDfVSxF2/+/qR58QcAgMoLHuJu5WYpDgAABAgQIECBAIE+g5UVJIkCAAAECIYEamjJEgMBqgWt1gPcJECBAgMDhAvfh+1mPAAECBAgQIECAwO4CfRR85/12L6sfAQIECBAgQIAAAQIECKQIPCPFHzGFWggBAgQIECAQEPgBEHYChA==
   </data>
  </layer>
 </map>
