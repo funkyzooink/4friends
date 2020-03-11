@@ -1,5 +1,4 @@
 os: osx
-language: ruby # dummy to prevent objective-c warning
 script:
   # - ./travis.sh
 env:
