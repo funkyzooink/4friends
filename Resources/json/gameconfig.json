@@ -110,8 +110,7 @@
             "type": "custom1"
         },
         "touch4": {
-            "type": "custom2",
-            "sprite": "ctrl_arrowUp.png"
+            "type": "custom2"
         }
     },
     "localization": [
